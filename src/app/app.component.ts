@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {FilterPipe} from './filter.pipe'
+
+import {FilterPipe} from './pipes';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

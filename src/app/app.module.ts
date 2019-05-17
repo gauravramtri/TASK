@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { FilterPipe }from './filter.pipe';
+import { FilterPipe }from './pipes';
 import {AgmCoreModule} from '@agm/core';
 
 
