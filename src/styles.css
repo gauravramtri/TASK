@@ -2,3 +2,48 @@
 body{
     background: #ECECEC;
 }
+
+agm-map {
+    height: 400px;
+  }
+  
+#container {
+    width: 100%;
+    margin: 5em auto;
+    padding: 0;
+    background:#fff;
+}
+
+.items {
+    max-width:500px;
+    height:500px;
+    background:#ECECEC;
+}
+
+#left, #right { 
+    margin: 10px;
+    max-width:50px;
+    height:50px;
+    background: #fff;
+}
+
+#heading{
+    text-align : center;
+    color: #7c795d;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 40px;
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+#h1{
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-weight: normal;
+        font-family: 'Ultra', sans-serif;   
+        font-size: 70px;
+        line-height: 52px;
+        text-transform: uppercase;
+        text-shadow: 0 2px white, 0 3px #777;
+        text-align : center;
+}

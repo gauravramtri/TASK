@@ -1,4 +1,10 @@
 
+#ngApp{
+    height:100px;
+    width :35px;
+
+
+}
 agm-map {
     height: 400px;
   }

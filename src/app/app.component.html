@@ -1,4 +1,5 @@
 
+
 <div id="h1"> TASK FOR INTERNSHIP </div>
     <div id="container">
         <div
@@ -11,7 +12,17 @@
           [$item]="item"
         >
         </div>
-      
+        <div>
+            <h3> {{title}}</h3>
+            <input type="text" [(ngModel)]="queryString" id="search" placeholder="Search to type">
+          
+            <ul>
+              <li *ngFor="let n of names | FilterPipe: queryString">
+                {{n}}
+              </li>
+            </ul>
+          </div>
+        
   
       <ng-template #prev>
         <img src="assets/images/left-arrow.png" id="left" />
@@ -33,6 +44,8 @@
             [longitude]="longitude"
             ></agm-marker>
         </agm-map>
+    
+      
 
       
         
