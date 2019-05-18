@@ -8,12 +8,11 @@ import { FilterPipe }from './pipes';
 import {AgmCoreModule} from '@agm/core';
 
 
-import { AppRoutingModule } from './app-routing.module';
+
 
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
-import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+
 
 
 
